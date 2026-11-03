@@ -1,0 +1,23 @@
+{
+  "name": "StudAnimals",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "StudAnimals": {
+        "$path": "src/shared/StudAnimals"
+      }
+    },
+    "ServerScriptService": {
+      "AnimalShowcase": {
+        "$path": "src/server/AnimalShowcase.server.luau"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "AnimalAnimator": {
+          "$path": "src/client/AnimalAnimator.client.luau"
+        }
+      }
+    }
+  }
+}
